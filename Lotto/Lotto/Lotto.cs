@@ -68,9 +68,11 @@ namespace Lotto
                 {
                     int[] korrekt_array = new int[RATT_SIZE];
                     int antal_dragningar = 0;
+
                     //Lagra antal draggningar i en int
                     Int32.TryParse(number_dragningar_box.Text, out antal_dragningar);
 
+                    //Börja lottot! Lagra antal rätt i arrayen
                     lottodags lotto = new lottodags();      
                     korrekt_array = lotto.antal_korrekt(input_array, antal_dragningar);
 

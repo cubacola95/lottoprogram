@@ -46,9 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dragning.cs" />
     <Compile Include="lottodags.cs" />
-    <Compile Include="nummer_gen.cs" />
     <Compile Include="Lotto.cs">
       <SubType>Form</SubType>
     </Compile>
